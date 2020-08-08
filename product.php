@@ -2,7 +2,7 @@
  require_once(dirname(__FILE__) . '/vendor/autoload.php');
  
   //Set Your server key
-  Veritrans_Config::$serverKey = "SB-Mid-server-OY0dlPN2pwHUD0dy9b-w6tE9";
+  Veritrans_Config::$serverKey = "SERVER KEY";
 
   // Uncomment for production environment
   // Veritrans_Config::$isProduction = true;
@@ -231,7 +231,7 @@
   </footer>
   <!--/.Footer-->
 
-  <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="SB-Mid-client-sQRKcfPK-sHoyZtf"></script>
+  <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="CLIENT KEY"></script>
     <script type="text/javascript">
       document.getElementById('pay-button').onclick = function(){
         // SnapToken acquired from previous step
