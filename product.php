@@ -63,8 +63,8 @@
 
   // detail pelanggan
   $customer_details = array(
-    'first_name'    => "Kiostr",
-    'last_name'     => "",
+    'first_name'    => "Pusat",
+    'last_name'     => "Kursus",
     'email'         => "kiostr@gmail.com",
     'phone'         => "081234567891",
     'billing_address'  => $billing_address,
@@ -73,12 +73,12 @@
 
   // Optional, remove this to display all available payment methods
   // $enable_payments = array('credit_card','cimb_clicks','mandiri_clickpay','echannel','alfamart');
-  $enable_payments = array('cimb_clicks','mandiri_clickpay','echannel','alfamart');
+  //$enable_payments = array('cimb_clicks','mandiri_clickpay','echannel','alfamart');
 
 
   // Fill transaction details
   $transaction = array(
-    'enabled_payments' => $enable_payments,
+    //'enabled_payments' => $enable_payments,
     'transaction_details' => $transaction_details,
     'customer_details' => $customer_details,
     'item_details' => $item_details,
@@ -113,8 +113,8 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand waves-effect" href="https://www.kodetr.com" target="_blank">
-        <strong class="blue-text">KIOSTR</strong>
+      <a class="navbar-brand waves-effect" href="https://www.pusatkursus.com" target="_blank">
+        <strong class="blue-text">PusatKursus.com</strong>
       </a>
 
       <!-- Collapse -->
@@ -134,10 +134,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect" href="ttps://www.kodetr.com" target="_blank">Brands</a>
+            <a class="nav-link waves-effect" href="https://www.pusatkursus.com" target="_blank">Brands</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect" href="ttps://www.kodetr.com"
+            <a class="nav-link waves-effect" href="https://www.pusatkursus.com"
               target="_blank">Sale</a>
           </li>
         </ul>
@@ -223,8 +223,8 @@
 
     <!--Copyright-->
     <div class="footer-copyright py-3">
-      <a href="https://kodetr.com/" target="_blank"> KIOSTR </a>
-       © 2019
+      <a href="https://pusatkursus.com/" target="_blank"> Pusat Kursus </a>
+       © 2020
     </div>
     <!--/.Copyright-->
 
